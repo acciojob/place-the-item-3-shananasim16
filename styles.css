@@ -1,2 +1,40 @@
+/* Apply flexbox properties to the holder */
+nav {
+    display: flex;
+    justify-content: space-between; /* Items are evenly placed in a row */
+    flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+}
 
-/* Your CSS Code here. */
+/* Style the individual list items (nav links) */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px; /* Add some space between the nav links */
+}
+
+nav li {
+    flex: 1; /* Each item takes equal space to evenly distribute them */
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+
+/* Style the videos and heading */
+h1 {
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    max-width: 400px; /* You can adjust the maximum width as needed */
+    margin: 20px auto; /* Center the videos horizontally and add space between them */
+}

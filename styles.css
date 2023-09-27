@@ -1,0 +1,11 @@
+.holder{
+	display:flex;
+	justify-content:space-evenly;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+#item-1, #item-2, #item-3{
+	width:100px;
+	background-color:red;
+	height:50px
+}

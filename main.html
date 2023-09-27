@@ -1,76 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    <style>
-        /* Apply flexbox properties to the holder */
-        nav {
-            display: flex;
-            justify-content: space-between; /* Items are evenly placed in a row */
-            flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
-        }
-
-        /* Style the individual list items (nav links) */
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            gap: 10px; /* Add some space between the nav links */
-        }
-
-        nav li {
-            flex: 1; /* Each item takes equal space to evenly distribute them */
-        }
-
-        nav a {
-            text-decoration: none;
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 15px;
-            border-radius: 5px;
-            display: block;
-            text-align: center;
-        }
-
-        /* Style the videos and heading */
-        h1 {
-            text-align: center;
-        }
-
-        video {
-            width: 100%;
-            max-width: 400px; /* You can adjust the maximum width as needed */
-            margin: 20px auto; /* Center the videos horizontally and add space between them */
-        }
-    </style>
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#contact">Contact us</a></li>
-        </ul>
-    </nav>
-    
-    <h1>3 random videos</h1>
-    
-    <video controls>
-        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    
-    <video controls>
-        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    
-    <video controls>
-        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+	<!-- the entire body must be written by student -->
+	<holder class="holder">
+     <div id="item-1"></div>
+		<div id="item-2"></div>
+		<div id="item-3"></div>
+	</holder>
+    <script type="text/javascript" src="./script.js">
+</script>
+
 </body>
+
 </html>
